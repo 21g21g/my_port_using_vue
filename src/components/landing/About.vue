@@ -12,7 +12,7 @@ const darkness=useDarkness()
            </div>
            <div class="flex flex-col mt-16 md:w-[45%] w-full">
               <h1 class="text-3xl text-white font-bold">About <span class="text-3xl text-teal-500">Me</span></h1>
-                <p class="text-white text-2xl font-bold">Frontend Developer</p>
+                <p class="text-white text-2xl font-bold">Fullstack Developer</p>
                  <p class="text-white font-bold text-justify   text-base mt-7">"Hello! I’m Gebeyehu Assega, a dedicated full-stack developer with a strong focus on creating seamless digital experiences. With expertise in Vue.js, React, Node.js, and Go, I thrive at the intersection of clean, intuitive front-end design and efficient, scalable back-end development.
 
                 Over the years, I’ve honed my skills in building web applications, I’m passionate about crafting solutions that make a real impact.</p>
