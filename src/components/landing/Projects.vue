@@ -167,7 +167,7 @@ const breakpoints = ref({
 </script>
 <template>
     
- <div class="min-h-screen bg-black pt-32 flex w-full px-10">
+ <div class="min-h-screen bg-black pt-32 flex w-full px-5 md:px-10">
    <div class=" flex  flex-col gap-y-5 ">
       <h1 class="text-5xl text-white self-center font-bold">My <span class=" text-teal-500">Projects</span></h1>
        <carousel

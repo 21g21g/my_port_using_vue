@@ -8,8 +8,8 @@ function downloadCv() {
 }
  </script>
 <template>
-     <div class="min-h-screen pt-40 pb-40 md:ml-20">
-   <div class="px-16  md:justify-between md:content-center flex flex-row w-full flex-wrap">
+     <div class="min-h-screen pt-24 md:pt-40 pb-40 md:ml-20">
+   <div class="px-5 md:px-16 md:justify-between md:content-center flex flex-row w-full flex-wrap">
         <div class="gap-3 w-full md:w-1/2 flex flex-col pt-5 flex-wrap">
             <h1 class="text-white font-bold text-3xl">Hello It's Me</h1>
            <h1  class="text-teal-500 font-bold text-5xl">Gebeyehu Assega</h1>
@@ -55,8 +55,8 @@ function downloadCv() {
   Download CV
 </button>
         </div>
-            <div class="rounded-full  bg-teal-500 md:mr-32 mt-8 md:mt-0">
-            <img src="/src/assets/gebporttt (1).png" alt="there is no image" class="rounded-full shadow-2xl shadow-cyan-500  w-96 h-96 object-contain">
+            <div class="md:rounded-full  md:bg-teal-500 md:mr-32 mt-8 md:mt-0">
+            <img src="/src/assets/gebporttt (1).png" alt="there is no image" class="md:rounded-full md:shadow-2xl md:shadow-cyan-500  w-96 h-96 object-contain">
 
            </div>
         

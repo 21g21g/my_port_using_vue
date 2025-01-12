@@ -6,6 +6,7 @@ const props=defineProps({
       type:Object
     }
 })
+import images from "../assets/git.png"
 </script>
 <template>
   <div class="flex flex-col bg-white  mr-3 rounded-2xl   pb-10  relative  ring ring-transparent hover:ring-sky-500 group">
@@ -26,13 +27,13 @@ const props=defineProps({
         </div>
       </template>
     </Card>
-    <div class="absolute top-[28rem] left-56 md:left-72 transition-opacity duration-300">
+    <div class="absolute top-[28rem] left-56 md:left-96 transition-opacity duration-300">
       <a 
   :href="props.project?.link"
   target="_blank" 
   rel="noopener noreferrer" 
-  className="bg-sky-500 w-32 py-1 rounded-xl text-center block text-white hover:bg-sky-600 transition">
-  See More
+  className=" w-32 py-1 rounded-xl text-center block text-white transition">
+ <img :src="images" alt="this is github" class="w-8 h-8 object-cover">
 </a>
     </div>
   </div>

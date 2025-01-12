@@ -2,8 +2,8 @@
 
       </script>
           <template>
-          <div class="min-h-screen -mt-32 md:mt-0 md:px-44 px-16  md:pt-32 md:pb-40 bg-black flex flex-col">
-           <h1 class="text-5xl text-white md:self-center font-bold">My <span class=" text-teal-500">Skills</span></h1>
+          <div class="min-h-screen -mt-32 md:mt-0 md:px-44 px-5  md:pt-32 md:pb-40 bg-black flex flex-col">
+           <h1 class="text-5xl mt-10 md:mt-0 text-white md:self-center font-bold">My <span class=" text-teal-500">Skills</span></h1>
             <div class="flex flex-col md:flex-row md:gap-96 md:mt-20 mt-10">
               <div class="flex flex-col">
               <div class="flex flex-col w-full  md:ml-16">
@@ -85,12 +85,12 @@
 
          </div>
          <div class="flex flex-col">
-           <div class="flex flex-col w-full  ml-16">
+           <div class="flex flex-col w-full  md:ml-16">
              <h1 class="text-3xl text-white  mt-10 md:mt-0 font-bold">Personal Skills</h1>
               <hr class="bg-white  h-1 font-bold w-52">
             </div>
             <div class="flex flex-col mt-16">
-      <div class="flex flex-row gap-44">
+      <div class="flex flex-row gap-10 md:gap-44">
        <div class="flex flex-col">
       <div class="relative flex items-center justify-center w-32 h-32 rounded-full ">
       <div
@@ -114,7 +114,7 @@
 
 
      </div>
-        <div class="flex flex-col ml-40 mt-8">
+        <div class="flex flex-col ml-20 md:ml-40 mt-8">
           <div class="relative flex items-center justify-center w-32 h-32 rounded-full">
      <div
     class="absolute top-0 left-0 w-32 h-32 rounded-full"
