@@ -12,14 +12,14 @@ import images from "../assets/git.png"
   <div class="flex flex-col bg-white  mr-3 rounded-2xl   pb-10  relative  ring ring-transparent hover:ring-sky-500 group">
     <Card style="overflow:visible ">
       <template #header>
-        <img :src="props.project.photo" alt="there is no photo" class="object-cover h-[15rem] rounded-2xl" />
+        <img :src="props.project.photo" alt="there is no photo" class="object-cover h-[15rem] w-full rounded-2xl" />
       </template>
       <template #title>
         <h1 class="text-sky-500 py-2 text-2xl font-bold">{{ props.project.title }}</h1>
       </template>
       <template #content>
         <div class="relative">
-          <p class="text-justify transition-all line-clamp-6 duration-300 text-[#334155] px-3  overflow-hidden text-sm">
+          <p class="text-justify transition-all line-clamp-6 duration-300 text-white px-3  overflow-hidden text-sm">
             {{ props.project.description }}
           </p>
           <!-- Fade-out effect -->

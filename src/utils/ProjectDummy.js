@@ -3,7 +3,7 @@ import event from "../assets/Screenshot from 2024-11-23 11-57-15.png"
 import intern from "../assets/intern.jpg"
 import exp from "../assets/et.jpg"
 import eco from "../assets/tour.jpg"
-
+import steep from "../assets/Screenshot from 2025-03-07 07-32-11.png"
 export const Projects=[
     {
     id:1,
@@ -14,21 +14,29 @@ export const Projects=[
     link:"https://github.com/21g21g/event_management"
 },
 {
-    id:2,
+  id:2,
+  title:"Student Support Management Panel",
+  photo:steep,
+  description:"Built a Student Support Management System to oversee students and track various support programs, integrating a provider-based system that assigns financial, academic, or mentorship assistance. Developed with React.js (frontend), Node.js (Express.js) (backend), and MongoDB (database), the platform enables real-time tracking of student support, including financial aid, mentorship, and career guidance.",
+ 
+  link:"https://github.com/21g21g/managment_client"
+},
+{
+    id:3,
     title:"Internshop Portal",
     photo:intern,
     description: "The Internship Portal is a dynamic platform designed to bridge the gap between students and companies. This project facilitates seamless connections, enabling students to find valuable internship opportunities while helping companies discover fresh talent. With user-friendly features and a focus on accessibility, the Internship Portal enhances the internship search experience, fostering mutually beneficial relationships between students and businesses.",
     link:"https://github.com/21g21g/internship_portal"
 },
 {
-    id: 3,
+    id: 4,
     photo: exp,
     title: "ExploreEthiopia",
     description: "ExploreEthiopia is an engaging platform dedicated to showcasing the rich cultural heritage, breathtaking landscapes, and diverse attractions of Ethiopia. This project provides users with detailed travel guides, historical insights, and curated itineraries, making it easy for tourists and locals alike to discover and explore the beauty of Ethiopia.",
     link:"https://github.com/21g21g/ethioExplore"
   },
   {
-    id: 4,
+    id: 5,
     photo: eco,
     title: "onlineShoping",
     description: "In the fast-paced digital age, the convenience of online shopping has revolutionized the way we purchase goods, including clothing With the emergence of e-commerce platforms, consumers now have access to a vast array of fashion choices from the comfort of their own homes",
